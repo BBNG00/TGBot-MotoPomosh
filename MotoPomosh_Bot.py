@@ -233,7 +233,7 @@ async def poka(update, context):
 
 
 def main():
-    application = Application.builder().token('6572486625:AAGBzyr6AaskaRK7Rthjl2LA9Dz8hefXVWU').build()
+    application = Application.builder().token('xxxxxxxxxxxxxx').build()
 
     application.add_handler(CommandHandler("start", start))
 
